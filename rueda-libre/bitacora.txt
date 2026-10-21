@@ -1,0 +1,18 @@
+Kilometro 0
+punto 4
+url:http://127.0.0.1:5500/paginas/index.html
+Protocolo:http
+Host:127.0.0.1
+Puerto:5500
+Ruta:/paginas/index.html
+codigo de estado:200 ok
+metodo de peticion:Get
+
+punto 5 
+url:http://127.0.0.1:5500/paginas/promociones.html
+el servidor arrojo un error 404 not found, lo cual quiere decir que esta direccion no fue encontrada por el servidor 
+punto 6 
+html: va hacer la estructura fundamental de la pagina es decir toda la informacion de la tienda y servicios
+css: va trabajar todo lo visual, que la pagina sea agradable a la vista es decir vas a darle el toque representativo, colores y logos  de la empresa 
+javaScrip: va trabajar todo lo funcional de la pagina como que puedas adquirir sus servicios desde la pagina con los botones o que se muestre la informacion cuando la requieras
+
