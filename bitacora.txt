@@ -16,3 +16,32 @@ html: va hacer la estructura fundamental de la pagina es decir toda la informaci
 css: va trabajar todo lo visual, que la pagina sea agradable a la vista es decir vas a darle el toque representativo, colores y logos  de la empresa 
 javaScrip: va trabajar todo lo funcional de la pagina como que puedas adquirir sus servicios desde la pagina con los botones o que se muestre la informacion cuando la requieras
 
+Tabla de rutas relativas
+
+Origen: index.html
+Destino: tarifas.html
+Ruta: paginas/tarifas.html
+
+Origen: index.html
+Destino: reservas.html
+Ruta: paginas/reservas.html
+
+Origen: index.html
+Destino: recorridos
+Ruta: paginas/tarifas.html#recorridos
+
+Origen: paginas/tarifas.html
+Destino: index.html
+Ruta: ../index.html
+
+Origen: paginas/tarifas.html
+Destino: reservas.html
+Ruta: reservas.html
+
+Origen: paginas/reservas.html
+Destino: index.html
+Ruta: ../index.html
+
+Origen: paginas/reservas.html
+Destino: tarifas.html
+Ruta: tarifas.html
