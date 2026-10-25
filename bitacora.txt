@@ -53,3 +53,52 @@ MiniReto 6 - Justificación de controles
  Para el tipo de bicicleta utilicé botones radio porque el usuario solo puede elegir una opción entre urbana, montaña o eléctrica.
 
  Para los comentarios utilicé textarea porque permite escribir un texto más largo que un input normal.
+
+ MiniReto 7 - Pruebas del formulario
+
+Nombre completo
+Probé con: Da
+Esperaba: que no dejara enviar porque tiene menos de 3 letras.
+Resultado: no dejó enviar y mostró el aviso.
+
+Documento
+Probé con: abc123
+Esperaba: que no aceptara letras.
+Resultado: mostró el mensaje de validación.
+
+Documento
+Probé con: 12345
+Esperaba: que no dejara enviar porque tiene menos de 6 números.
+Resultado: no dejó continuar.
+
+Correo
+Probé con: daniela@
+Esperaba: que mostrara error porque el correo está incompleto.
+Resultado: el navegador mostró el aviso.
+
+Celular
+Probé con: 1234567890
+Esperaba: que no lo aceptara porque no empieza por 3.
+Resultado: no permitió enviar.
+
+Celular
+Probé con: 300123
+Esperaba: que no lo aceptara porque no tiene 10 números.
+Resultado: mostró la validación.
+
+Fecha
+Probé con: 20/10/2026
+Esperaba: que no la aceptara porque está fuera de las fechas permitidas.
+Resultado: no permitió enviar.
+
+Cantidad de bicicletas
+Probé con: 7
+Esperaba: que no aceptara más de 6 bicicletas.
+Resultado: mostró el aviso.
+
+Políticas
+Probé dejando la casilla sin marcar.
+Esperaba: que no dejara enviar el formulario.
+Resultado: pidió marcar la casilla antes de continuar.
+
+También recorrí el formulario usando Tab y Shift + Tab. Probé las opciones con las flechas, marqué la casilla con la barra espaciadora y llegué al botón de enviar con el teclado.

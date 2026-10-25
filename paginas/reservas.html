@@ -48,22 +48,31 @@
 
             <p>
                 <label for="nombre">Nombre completo:</label>
-                <input type="text" id="nombre" name="nombre">
+                <input type="text" id="nombre" name="nombre"
+                requiered
+                minlength="3">
             </p>
 
             <p>
                 <label for="documento">Número de documento:</label>
-                <input type="text" id="documento" name="documento">
+                <input type="text" id="documento" name="documento"
+                required
+                pattern="[0-9]{6,10}"
+                 title="El documento debe tener entre 6 y 10 números">
             </p>
 
             <p>
                 <label for="correo">Correo electrónico:</label>
-                <input type="email" id="correo" name="correo">
+                <input type="email" id="correo" name="correo"
+                required>
             </p>
 
             <p>
                 <label for="celular">Celular:</label>
-                <input type="tel" id="celular" name="celular">
+                <input type="tel" id="celular" name="celular"
+                required
+                pattern="3[0-9]{9}"
+                title="El celular debe tener 10 dígitos y comenzar por 3">
             </p>
 
         </fieldset>
@@ -73,26 +82,34 @@
 
     <p>
         <label for="fecha">Fecha del alquiler:</label>
-        <input type="date" id="fecha" name="fecha">
+        <input type="date" 
+         id="fecha"
+         name="fecha"
+         required
+         min="2026-11-01"
+         max="2026-12-31">
     </p>
 
     <p>Tipo de bicicleta:</p>
 
     <p>
-        <input type="radio" id="urbana" name="tipo_bicicleta" value="urbana">
+        <input type="radio" id="urbana" name="tipo_bicicleta" value="urbana"
+        required>
         <label for="urbana">Urbana</label>
 
-        <input type="radio" id="montana" name="tipo_bicicleta" value="montana">
+        <input type="radio" id="montana" name="tipo_bicicleta" value="montana"
+        required>
         <label for="montana">Montaña</label>
 
-        <input type="radio" id="electrica" name="tipo_bicicleta" value="electrica">
+        <input type="radio" id="electrica" name="tipo_bicicleta" value="electrica"
+        required>
         <label for="electrica">Eléctrica</label>
     </p>
 
     <p>
         <label for="plan">Plan:</label>
 
-        <select id="plan" name="plan">
+        <select id="plan" name="plan" required>
             <option value="">Selecciona un plan</option>
             <option value="1_hora">1 hora</option>
             <option value="medio_dia">Medio día</option>
@@ -102,7 +119,11 @@
 
     <p>
         <label for="cantidad">Cantidad de bicicletas:</label>
-        <input type="number" id="cantidad" name="cantidad">
+        <input type="number" id="cantidad"
+         name="cantidad" 
+         required
+         min="1"
+         max="6">
     </p>
 
     <p>
@@ -123,11 +144,16 @@
 
     <p>
         <label for="comentarios">Comentarios:</label>
-        <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
+        <textarea id="comentarios" name="comentarios"
+         rows="4" 
+         cols="40"
+         cols="40"
+         maxlength="300"></textarea>
     </p>
 
     <p>
-        <input type="checkbox" id="politicas" name="politicas">
+        <input type="checkbox" id="politicas" name="politicas"
+        required>
         <label for="politicas">
             Acepto las políticas de alquiler
         </label>
