@@ -102,3 +102,45 @@ Esperaba: que no dejara enviar el formulario.
 Resultado: pidió marcar la casilla antes de continuar.
 
 También recorrí el formulario usando Tab y Shift + Tab. Probé las opciones con las flechas, marqué la casilla con la barra espaciadora y llegué al botón de enviar con el teclado.
+
+MiniReto 8 - Revisión de accesibilidad
+
+Revisé las tres páginas y encontré algunas cosas que podía mejorar.
+
+ Agregué la opción "Saltar al contenido" para poder llegar más rápido al contenido principal usando el teclado.
+
+ Le puse un id al main para que el enlace de saltar al contenido funcione correctamente.
+
+ Agregué aria-current en el menú para identificar en qué página estoy.
+
+ Revisé los textos de las imágenes para que expliquen lo que muestran y no queden solo con nombres muy generales.
+
+ Probé los enlaces y el formulario usando Tab y Shift + Tab. También probé los botones radio con las flechas y la casilla de políticas con la barra espaciadora.
+
+También revisé que las páginas tengan lang="es" y que los títulos mantengan el orden h1, h2 y h3.
+
+Contraste de colores
+
+Revisé los colores de la marca para saber cuáles se pueden usar juntos sin que el texto sea difícil de leer.
+
+Blanco sobre Verde Ruta: 5.31:1. Sí sirve para texto normal.
+
+Blanco sobre Naranja Pedal: 2.22:1. No sirve porque el contraste es muy bajo.
+
+Azul Noche sobre Naranja Pedal: 7.20:1. Sí sirve para texto normal.
+
+Azul Noche sobre Crema: 14.83:1. Tiene muy buen contraste y sirve para texto normal.
+
+Gris Asfalto sobre Crema: 5.57:1. Sí sirve para texto normal.
+
+Verde Ruta sobre Crema: 4.93:1. Sí sirve para texto normal.
+
+Naranja Pedal sobre Crema: 2.06:1. No lo usaría para texto porque se dificulta leerlo.
+
+Blanco sobre Azul Noche: 15.97:1. Tiene muy buen contraste y sirve para texto normal.
+
+Mapa de colores
+
+Usaría Crema como fondo general.
+
+Azul Noche lo usaría para títulos y también como fondo del encabezado con letras blancas.

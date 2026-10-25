@@ -9,17 +9,18 @@
 </head>
 
 <body>
+    <a href="#contenido">Saltar al Contenido</a>
     <header>
          <h1>Reserva tu bicicleta</h1>
     <nav>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="tarifas.html">Tarifas y rutas</a></li>
-            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="reservas.html " aria-current="page">Reservas</a></li>
         </ul>
     </nav>
     </header>
-   <main>
+   <main id="Contenido">
 
     <p>
         Para realizar tu reserva puedes escribirnos al correo:
@@ -49,7 +50,7 @@
             <p>
                 <label for="nombre">Nombre completo:</label>
                 <input type="text" id="nombre" name="nombre"
-                requiered
+                required
                 minlength="3">
             </p>
 
@@ -146,7 +147,6 @@
         <label for="comentarios">Comentarios:</label>
         <textarea id="comentarios" name="comentarios"
          rows="4" 
-         cols="40"
          cols="40"
          maxlength="300"></textarea>
     </p>
