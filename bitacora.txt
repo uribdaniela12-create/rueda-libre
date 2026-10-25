@@ -45,3 +45,11 @@ Ruta: ../index.html
 Origen: paginas/reservas.html
 Destino: tarifas.html
 Ruta: tarifas.html
+
+MiniReto 6 - Justificación de controles
+
+ Para el correo utilicé input type="email" porque permite ingresar una dirección de correo y ayuda a validar su formato.
+
+ Para el tipo de bicicleta utilicé botones radio porque el usuario solo puede elegir una opción entre urbana, montaña o eléctrica.
+
+ Para los comentarios utilicé textarea porque permite escribir un texto más largo que un input normal.
