@@ -144,3 +144,13 @@ Mapa de colores
 Usaría Crema como fondo general.
 
 Azul Noche lo usaría para títulos y también como fondo del encabezado con letras blancas.
+
+Publicación en GitHub Pages
+
+Publiqué el proyecto usando GitHub Pages desde la rama main y la carpeta raíz del repositorio.
+
+Enlace de la página:
+https://uribdaniela12-create.github.io/rueda-libre/
+
+Entré al sitio publicado y revisé que las páginas y los enlaces funcionaran correctamente.
+
