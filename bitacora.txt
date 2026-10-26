@@ -154,3 +154,12 @@ https://uribdaniela12-create.github.io/rueda-libre/
 
 Entré al sitio publicado y revisé que las páginas y los enlaces funcionaran correctamente.
 
+MiniReto 9 - Herencia
+
+Revisé un párrafo desde DevTools.
+
+La propiedad font-family sí se hereda desde el body, por eso el párrafo usa Open Sans aunque yo no se la puse directamente.
+
+La propiedad background-color no se hereda. El fondo crema se ve porque está aplicado al body y los párrafos tienen el fondo transparente.
+
+
