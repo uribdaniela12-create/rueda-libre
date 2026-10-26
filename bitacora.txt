@@ -162,4 +162,30 @@ La propiedad font-family sí se hereda desde el body, por eso el párrafo usa Op
 
 La propiedad background-color no se hereda. El fondo crema se ve porque está aplicado al body y los párrafos tienen el fondo transparente.
 
+MiniReto 10 - Especificidad
+
+Revisé el enlace activo del menú desde DevTools y vi que el color verde no se estaba aplicando.
+
+El selector #menu a tiene una especificidad de 101 porque usa un id y un elemento.
+
+La clase .activo tiene una especificidad de 10 porque solo usa una clase.
+
+Por eso estaba ganando #menu a y el color de .activo aparecía tachado.
+
+MiniReto 10 - Navegación y estados
+
+Cuando estaba cambiando el color del enlace activo del menú, vi que no se aplicaba como yo quería.
+
+Revisé en DevTools y encontré que #menu a tenía más prioridad que la clase .activo, por eso el color verde no se estaba mostrando.
+
+#menu a tenía una especificidad de 101 y .activo una de 10.
+
+Para solucionarlo usé #menu a.activo y así pude cambiar el color sin usar !important.
+
+También agregué efectos cuando paso el mouse por los enlaces y cuando llego a ellos usando Tab.
+
+Hice lo mismo con el botón de Reservar ahora y con los campos del formulario para que se pueda ver claramente dónde estoy cuando navego con el teclado.
+
+Probé usando Tab y Shift + Tab y el foco se veía en los enlaces, botones y campos.
+
 
