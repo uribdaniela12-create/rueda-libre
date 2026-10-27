@@ -188,4 +188,16 @@ Hice lo mismo con el botón de Reservar ahora y con los campos del formulario pa
 
 Probé usando Tab y Shift + Tab y el foco se veía en los enlaces, botones y campos.
 
+MiniReto 11 - Modelo de caja
+
+Revisé una de las tarjetas de servicios desde DevTools para comparar cómo cambia el ancho.
+
+Con border-box la tarjeta tenía un ancho total de 320 px.
+
+Sin border-box el ancho total aumentó aproximadamente a 353 px porque el padding y el borde se sumaron al ancho del contenido.
+
+Con border-box es más fácil controlar el tamaño porque el padding y el borde quedan incluidos dentro del ancho del elemento.
+
+También organicé las tarjetas de servicios, las tablas y el formulario para que se vieran más separados y ordenados. El menú quedó en una sola fila y el contenido principal quedó centrado.
+
 
