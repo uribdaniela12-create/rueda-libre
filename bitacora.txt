@@ -200,4 +200,14 @@ Con border-box es más fácil controlar el tamaño porque el padding y el borde 
 
 También organicé las tarjetas de servicios, las tablas y el formulario para que se vieran más separados y ordenados. El menú quedó en una sola fila y el contenido principal quedó centrado.
 
+ Flexbox
+
+Organicé el encabezado usando Flexbox para que el nombre Rueda Libre quede en un lado y el menú en el otro.
+
+También cambié el menú para usar gap en vez de margin e inline-block.
+
+Al hacer la ventana más pequeña, los enlaces del menú bajan de línea cuando ya no tienen suficiente espacio y no se salen de la página.
+
+En el pie de página organicé la información en tres bloques: marca, contacto y horario. En una pantalla grande se ven uno al lado del otro y cuando reduzco la ventana se van acomodando según el espacio disponible.
+
 

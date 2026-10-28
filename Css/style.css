@@ -111,7 +111,7 @@ button:focus {
     height: auto;
 }
 .bicicleta-card {
-    width: 48%;
+    width: 100%;
     display: inline-block;
     vertical-align: top;
 }
@@ -160,11 +160,7 @@ textarea {
 button {
     padding: var(--espacio-mediano) var(--espacio-grande);
 }
-#menu li {
-    display: inline-block;
-    margin-right: var(--espacio-mediano);
-}
-/* COMPONENTES */
+ COMPONENTES */
 .portada {
     min-height: 50vh;
 }
@@ -214,9 +210,25 @@ footer {
     padding-bottom: 5rem;
 }
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--espacio-mediano);
+
     background-color: var(--azul-noche);
     color: var(--crema);
     padding: var(--espacio-mediano);
+}
+#menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--espacio-mediano);
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 header h1 {
@@ -240,6 +252,13 @@ header h1 {
     outline: 2px solid var(--naranja-pedal);
 }
 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: var(--espacio-grande); 
+ 
     background-color: var(--azul-noche);
     color: var(--crema);
     padding: var(--espacio-mediano);
