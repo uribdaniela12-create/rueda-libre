@@ -273,3 +273,21 @@ footer a:hover,
 footer a:focus {
     color: var(--naranja-pedal);
 }
+.grid-flota {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: var(--espacio-mediano);
+}
+.tarjeta-bici {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: var(--espacio-mediano);
+    border: 1px solid var(--verde-ruta);
+    border-radius: 0.5rem;
+}
+.tarjeta-bici img {
+    width: 100%;
+    height: auto;
+}
