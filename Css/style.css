@@ -166,8 +166,33 @@ button {
 }
  COMPONENTES */
 .portada {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--espacio-grande);
+    align-items: center;
     min-height: 50vh;
 }
+.portada-imagen img {
+    width: 100%;
+    height: auto;
+}
+.grid-rutas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--espacio-mediano);
+}
+
+.ruta-card {
+    padding: var(--espacio-mediano);
+    border: 1px solid var(--verde-ruta);
+    border-radius: 0.5rem;
+}
+
+.ruta-card img {
+    width: 100%;
+    height: auto;
+}
+
 .servicio-nuevo {
     position: relative;
 }
@@ -294,4 +319,10 @@ footer a:focus {
 .tarjeta-bici img {
     width: 100%;
     height: auto;
+}
+.layout-reservas {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--espacio-grande);
+    align-items: start;
 }

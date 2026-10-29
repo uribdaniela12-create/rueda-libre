@@ -18,7 +18,7 @@
     <header> 
         <h1> Rueda Libre</h1>
     <nav>
-     <ul>
+     <ul id="menu">
         <li><a href="index.html" class="activo" aria-current="page">Inicio</a></li>
         <li><a href="paginas/tarifas.html">Tarifas y rutas</a></li>
         <li><a href="paginas/reservas.html">Reservas</a></li>
@@ -27,10 +27,17 @@
      </header>
     <main id="contenido">
     <section class="portada">
-      <img src="img/portada.png"
+         <div class="portada-texto">
+        <h2>Muévete por Medellín sobre dos ruedas</h2>
+
+         <p>Bienvenido a Rueda Libre, tu destino para alquilar bicicletas y accesorios en Medellín. Explora nuestra amplia gama de bicicletas y disfruta de la ciudad sobre dos ruedas.</p>
+
+         </div>
+          <div class="portada-imagen">
+          <img src="img/portada.png"
       alt="Personas recorriendo la  ciudad en bicicleta"
       width="300">
-    <p>Bienvenido a Rueda Libre, tu destino para alquilar bicicletas y accesorios en Medellín. Explora nuestra amplia gama de bicicletas y disfruta de la ciudad sobre dos ruedas.</p>
+      </div>
     </section> 
     <section>
     <h2>¿Quiénes somos?</h2>
@@ -41,6 +48,31 @@
         <a href="#encuentranos">Conoce dónde encontrarnos</a>.
     </p>
     </section>
+    <section class="rutas">
+    <h2>Nuestras rutas</h2>
+
+    <div class="grid-rutas">
+
+        <article class="ruta-card">
+            <img src="img/rutau.jpg" alt="Ruta urbana en bicicleta">
+            <h3>Ruta Urbana</h3>
+            <p>Nivel: Fácil</p>
+        </article>
+
+        <article class="ruta-card">
+            <img src="img/rutam.jpg" alt="Ruta por montaña en bicicleta">
+            <h3>Ruta de Montaña</h3>
+            <p>Nivel: Medio</p>
+        </article>
+
+        <article class="ruta-card">
+            <img src="img/rutaa.jpg" alt="Ruta de aventura en bicicleta">
+            <h3>Ruta Aventura</h3>
+            <p>Nivel: Difícil</p>
+        </article>
+
+      </div>
+     </section>
      <section>
     <h2>Nuestros servicios</h2>
        
@@ -93,7 +125,7 @@
     <section>
     <h2>Beneficios</h2>
 
-    <ul id="menu">
+    <ul>
         <li>Transporte económico.</li>
         <li>Casco y candado incluidos.</li>
         <li>Una forma ecológica de recorrer la ciudad.</li>

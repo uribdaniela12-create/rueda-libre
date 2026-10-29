@@ -217,3 +217,13 @@ Creé la sección Nuestra flota con siete bicicletas.
 Organicé las tarjetas usando Grid para que la cantidad de columnas cambie automáticamente según el ancho de la pantalla.
 
 También usé Flexbox dentro de cada tarjeta para mantener el contenido organizado y que el enlace Reservar quede al final.
+
+ Layout
+
+Usé Grid en la portada para organizar el texto y la imagen en dos columnas.
+
+También usé Grid en Nuestras rutas para mostrar tres tarjetas en una fila y en reservas para dividir el formulario y la información en proporción 2:1.
+
+Documento y celular quedaron en la misma fila usando Grid.
+
+En el encabezado y el pie de página usé Flexbox porque los elementos se organizan principalmente en una sola dirección.
