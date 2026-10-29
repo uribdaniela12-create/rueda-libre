@@ -108,7 +108,11 @@ button:focus {
 
 .servicio img {
     width: 100%;
+    max-width: 400px;
     height: auto;
+    display: block;
+    margin: 0 auto;
+
 }
 .bicicleta-card {
     width: 100%;

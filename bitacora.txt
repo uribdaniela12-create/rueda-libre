@@ -210,4 +210,10 @@ Al hacer la ventana más pequeña, los enlaces del menú bajan de línea cuando 
 
 En el pie de página organicé la información en tres bloques: marca, contacto y horario. En una pantalla grande se ven uno al lado del otro y cuando reduzco la ventana se van acomodando según el espacio disponible.
 
+Nuestra flota con Grid
 
+Creé la sección Nuestra flota con siete bicicletas.
+
+Organicé las tarjetas usando Grid para que la cantidad de columnas cambie automáticamente según el ancho de la pantalla.
+
+También usé Flexbox dentro de cada tarjeta para mantener el contenido organizado y que el enlace Reservar quede al final.
