@@ -286,14 +286,6 @@ img {
     height: auto;
 }
 
-.layout-reservas {
-    grid-template-columns: 1fr;
-}
-
-.fila-campos {
-    grid-template-columns: 1fr;
-}
-
 header {
     flex-direction: column;
     align-items: center;
@@ -308,15 +300,6 @@ td {
     padding: var(--espacio-pequeno);
     font-size: 1rem;
 }
-
-    .layout-reservas {
-        grid-template-columns: 2fr 1fr;
-    }
-
-    .fila-campos {
-        grid-template-columns: 1fr 1fr;
-    }
-
     header {
         flex-direction: row;
         justify-content: space-between;

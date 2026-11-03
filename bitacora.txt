@@ -244,7 +244,6 @@ Con Bootstrap necesité menos CSS para organizar las columnas, porque la distrib
 
 Bootstrap facilitó mucho la adaptación a diferentes pantallas, aunque tengo menos control directo que usando mi propio CSS.
 
-
 Migración del inicio a Bootstrap
 
 En este reto agregué Bootstrap al archivo `index.html` y dejé mi archivo `style.css` después de Bootstrap para conservar los estilos propios de Rueda Libre.
@@ -263,3 +262,15 @@ Los conflictos se solucionaron dejando mi archivo `style.css` después del CSS d
 
 Después de los cambios revisé que la página siguiera funcionando y que conservara la identidad visual de Rueda Libre.
 
+Bootstrap en Tarifas y Reservas
+
+En este reto usé Bootstrap en las páginas de Tarifas y Reservas.
+
+En Tarifas organicé las tablas con filas y columnas y usé `table-responsive` para que no se salgan de la pantalla.
+
+En Reservas cambié la distribución por columnas de Bootstrap. En 360 px los campos se ven uno debajo del otro y desde 768 px se ven de dos en dos.
+
+También probé el formulario sin llenar campos obligatorios y las validaciones siguen funcionando correctamente.
+
+Además eliminé del CSS algunas reglas de distribución que ya no eran necesarias porque ahora Bootstrap se encarga de esa parte.
+Antes tenía 356 líneas de CSS y ahora tengo 289, así que reduje 67 líneas usando Bootstrap.
