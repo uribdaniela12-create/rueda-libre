@@ -244,3 +244,22 @@ Con Bootstrap necesité menos CSS para organizar las columnas, porque la distrib
 
 Bootstrap facilitó mucho la adaptación a diferentes pantallas, aunque tengo menos control directo que usando mi propio CSS.
 
+
+Migración del inicio a Bootstrap
+
+En este reto agregué Bootstrap al archivo `index.html` y dejé mi archivo `style.css` después de Bootstrap para conservar los estilos propios de Rueda Libre.
+
+Cambié la distribución de la portada, la flota, las rutas y la sección de beneficios usando el sistema de filas y columnas de Bootstrap. También eliminé del CSS algunas reglas de Grid que ya no eran necesarias.
+
+Revisando la página con las herramientas de desarrollador de Firefox encontré estos conflictos:
+
+1. **Color de los enlaces:** Bootstrap tenía un color predeterminado para los enlaces, pero en el menú quedaron los colores que ya tenía definidos en mi CSS.
+
+2. **Tipografía:** Bootstrap aplicaba su fuente general, pero en los títulos quedó activa mi regla para `h1`, `h2` y `h3`.
+
+3. **Color de fondo:** Bootstrap tenía su propio color de fondo para el `body`, pero quedó activo el color crema que tenía definido en `style.css`.
+
+Los conflictos se solucionaron dejando mi archivo `style.css` después del CSS de Bootstrap, sin utilizar `!important`.
+
+Después de los cambios revisé que la página siguiera funcionando y que conservara la identidad visual de Rueda Libre.
+

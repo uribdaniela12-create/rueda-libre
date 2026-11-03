@@ -164,34 +164,6 @@ textarea {
 button {
     padding: var(--espacio-mediano) var(--espacio-grande);
 }
- COMPONENTES */
-.portada {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--espacio-grande);
-    align-items: center;
-    min-height: 50vh;
-}
-.portada-imagen img {
-    width: 100%;
-    height: auto;
-}
-.grid-rutas {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--espacio-mediano);
-}
-
-.ruta-card {
-    padding: var(--espacio-mediano);
-    border: 1px solid var(--verde-ruta);
-    border-radius: 0.5rem;
-}
-
-.ruta-card img {
-    width: 100%;
-    height: auto;
-}
 
 .servicio-nuevo {
     position: relative;
@@ -302,24 +274,7 @@ footer a:hover,
 footer a:focus {
     color: var(--naranja-pedal);
 }
-.grid-flota {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: var(--espacio-mediano);
-}
-.tarjeta-bici {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 
-    padding: var(--espacio-mediano);
-    border: 1px solid var(--verde-ruta);
-    border-radius: 0.5rem;
-}
-.tarjeta-bici img {
-    width: 100%;
-    height: auto;
-}
 .layout-reservas {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -329,14 +284,6 @@ footer a:focus {
 img {
     max-width: 100%;
     height: auto;
-}
-
-.portada {
-    grid-template-columns: 1fr;
-}
-
-.grid-rutas {
-    grid-template-columns: 1fr;
 }
 
 .layout-reservas {
@@ -361,14 +308,6 @@ td {
     padding: var(--espacio-pequeno);
     font-size: 1rem;
 }
-
-    .portada {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .grid-rutas {
-        grid-template-columns: repeat(3, 1fr);
-    }
 
     .layout-reservas {
         grid-template-columns: 2fr 1fr;
