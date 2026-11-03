@@ -227,3 +227,6 @@ También usé Grid en Nuestras rutas para mostrar tres tarjetas en una fila y en
 Documento y celular quedaron en la misma fila usando Grid.
 
 En el encabezado y el pie de página usé Flexbox porque los elementos se organizan principalmente en una sola dirección.
+mobile first
+por el momento con no se evidencia ningun incombeniente con la pantalla , las tarjetas se acomodan al ancho de la pantalla. 
+
