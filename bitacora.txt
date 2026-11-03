@@ -229,4 +229,18 @@ Documento y celular quedaron en la misma fila usando Grid.
 En el encabezado y el pie de página usé Flexbox porque los elementos se organizan principalmente en una sola dirección.
 mobile first
 por el momento con no se evidencia ningun incombeniente con la pantalla , las tarjetas se acomodan al ancho de la pantalla. 
+MiniReto 5 - Bootstrap Grid
+
+Creé una página de prueba con Bootstrap y pasé la flota de bicicletas a su sistema de grillas.
+
+Probé los tamaños y obtuve:
+
+360 px: 1 columna
+576 px: 2 columnas
+992 px: 3 columnas
+1200 px: 4 columnas
+
+Con Bootstrap necesité menos CSS para organizar las columnas, porque la distribución se hizo con clases como col-12, col-sm-6, col-lg-4 y col-xl-3.
+
+Bootstrap facilitó mucho la adaptación a diferentes pantallas, aunque tengo menos control directo que usando mi propio CSS.
 
