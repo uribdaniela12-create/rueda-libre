@@ -34,44 +34,25 @@ h3 {
     font-family: var(--fuente-titulos);
 }
 
-/* COMPONENTES */
-.boton-reserva {
-    background-color: var(--verde-ruta);
-    color: var(--crema);
-    text-decoration: none;
-    padding: var(--espacio-pequeno) var(--espacio-mediano);
-    display: inline-block;
-}
 
-.boton-reserva:hover {
-    background-color: var(--azul-noche);
-    color: var(--crema);
-}
-
-.boton-reserva:focus {
-    background-color: var(--azul-noche);
-    color: var(--crema);
-    outline: 2px solid var(--azul-noche);
-    outline-offset: 2px;
-}
 input:focus,
 select:focus,
 textarea:focus {
     outline: 2px solid var(--verde-ruta);
     outline-offset: 2px;
 }
-button {
+form button[type="submit"] {
     background-color: var(--verde-ruta);
     color: var(--crema);
     border: none;
     padding: var(--espacio-pequeno) var(--espacio-mediano);
 }
 
-button:hover {
+form button[type="submit"]:hover {
     background-color: var(--azul-noche);
 }
 
-button:focus {
+form button[type="submit"]:focus {
     outline: 2px solid var(--azul-noche);
     outline-offset: 2px;
 }
@@ -139,7 +120,7 @@ textarea {
     margin-bottom: var(--espacio-mediano);
 }
 
-button {
+form button[type="submit"] {
     padding: var(--espacio-mediano) var(--espacio-grande);
 }
 

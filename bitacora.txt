@@ -287,3 +287,12 @@ Probé el menú con el mouse y el teclado, revisé los enlaces y confirmé que c
 
 Finalmente, eliminé estilos CSS que ya no necesitaba porque Bootstrap se encarga del menú y de los botones.
 
+Cards y carrusel de Bootstrap
+
+En este reto cambié las siete bicicletas y las tres rutas por tarjetas de Bootstrap usando `card`, `card-body` y `card-img-top`.
+
+También creé un carrusel con tres promociones que cambian automáticamente y tienen botones para retroceder
+
+Probé la página en 360 px, 768 px y 1280 px. También revisé los botones con el teclado.
+
+Finalmente, limpié algunas reglas CSS que ya no necesitaba y corregí los estilos de los botones para que no afectaran los componentes de Bootstrap.
