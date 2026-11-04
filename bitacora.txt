@@ -296,3 +296,15 @@ También creé un carrusel con tres promociones que cambian automáticamente y t
 Probé la página en 360 px, 768 px y 1280 px. También revisé los botones con el teclado.
 
 Finalmente, limpié algunas reglas CSS que ya no necesitaba y corregí los estilos de los botones para que no afectaran los componentes de Bootstrap.
+
+Formulario con Bootstrap
+
+En este reto mejoré el formulario de Reservas utilizando las clases de Bootstrap.
+
+Agregué mensajes de error para los campos obligatorios y activé la validación visual con JavaScript.
+
+También incluí una alerta para recordar llevar el documento de identidad y una ventana emergente con las políticas de alquiler.
+
+Probé el formulario con datos incorrectos y correctos. Los mensajes aparecieron cuando había errores y desaparecieron al corregirlos.
+
+Finalmente, comprobé que la alerta y la ventana de políticas funcionaran correctamente.
