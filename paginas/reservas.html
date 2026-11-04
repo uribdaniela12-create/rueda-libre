@@ -21,16 +21,48 @@
 
 <body>
     <a href="#contenido">Saltar al Contenido</a>
-    <header>
-         <h1>Reserva tu bicicleta</h1>
-    <nav>
-        <ul id="menu">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="tarifas.html">Tarifas y rutas</a></li>
-            <li><a href="reservas.html" aria-current="page">Reservas</a></li>
-        </ul>
-    </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+        <h1 class="m-0 fs-4">
+            <a class="navbar-brand" href="../index.html">Rueda Libre</a>
+        </h1>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal"
+                aria-expanded="false"
+                aria-label="Abrir o cerrar menú">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="../index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="tarifas.html">Tarifas y rutas</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active"
+                       aria-current="page"
+                       href="reservas.html">Reservas</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+  </nav>
     
    <main id="contenido">
         <div class="row g-4">

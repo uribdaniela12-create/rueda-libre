@@ -274,3 +274,16 @@ También probé el formulario sin llenar campos obligatorios y las validaciones 
 
 Además eliminé del CSS algunas reglas de distribución que ya no eran necesarias porque ahora Bootstrap se encarga de esa parte.
 Antes tenía 356 líneas de CSS y ahora tengo 289, así que reduje 67 líneas usando Bootstrap.
+
+Navbar y botones de Bootstrap
+
+En este reto cambié el menú de las tres páginas por una navbar de Bootstrap.
+
+En 360 px y 768 px aparece el menú hamburguesa, y en 1280 px se muestran los enlaces directamente.
+
+También cambié los botones de Reservar por `btn-success` y los de consulta por `btn-outline-success`.
+
+Probé el menú con el mouse y el teclado, revisé los enlaces y confirmé que cada página tiene un solo script de Bootstrap.
+
+Finalmente, eliminé estilos CSS que ya no necesitaba porque Bootstrap se encarga del menú y de los botones.
+

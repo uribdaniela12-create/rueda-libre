@@ -33,29 +33,7 @@ h2,
 h3 {
     font-family: var(--fuente-titulos);
 }
-/* NAVEGACION */
-#menu a {
-    color: var(--gris-asfalto);
-}
 
-.activo {
-    color: var(--verde-ruta);
-    font-weight: 600;
-}
-#menu a.activo {
-    color: var(--verde-ruta);
-    font-weight: 600;
-}
-#menu a:hover {
-    color: var(--verde-ruta);
-    text-decoration: underline;
-}
-
-#menu a:focus {
-    color: var(--verde-ruta);
-    outline: 2px solid var(--verde-ruta);
-    outline-offset: 2px;
-}
 /* COMPONENTES */
 .boton-reserva {
     background-color: var(--verde-ruta);
@@ -210,48 +188,7 @@ button {
 footer {
     padding-bottom: 5rem;
 }
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: var(--espacio-mediano);
 
-    background-color: var(--azul-noche);
-    color: var(--crema);
-    padding: var(--espacio-mediano);
-}
-#menu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: var(--espacio-mediano);
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-header h1 {
-    color: var(--crema);
-}
-
-#menu a {
-    color: var(--crema);
-}
-
-#menu a.activo {
-    color: var(--naranja-pedal);
-}
-
-#menu a:hover {
-    color: var(--naranja-pedal);
-}
-
-#menu a:focus {
-    color: var(--naranja-pedal);
-    outline: 2px solid var(--naranja-pedal);
-}
 footer {
     display: flex;
     flex-direction: row;
@@ -275,58 +212,16 @@ footer a:focus {
     color: var(--naranja-pedal);
 }
 
-.layout-reservas {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: var(--espacio-grande);
-    align-items: start;
-}
 img {
     max-width: 100%;
     height: auto;
 }
 
-header {
-    flex-direction: column;
-    align-items: center;
-}
-
 footer {
     flex-direction: column;
 }
-@media (min-width: 768px) {
-    th,
-td {
-    padding: var(--espacio-pequeno);
-    font-size: 1rem;
-}
-    header {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    footer {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-}
 @media (min-width: 1200px) {
-
     main {
         max-width: 90rem;
-    }
-
-    .portada {
-        gap: var(--espacio-grande);
-    }
-
-    .grid-rutas {
-        gap: var(--espacio-grande);
-    }
-
-    .layout-reservas {
-        gap: var(--espacio-grande);
     }
 }
