@@ -101,40 +101,169 @@
      <div class="row g-4">
 
         <div class="col-12 col-md-4">
-            <article class="border rounded p-3 h-100">
-                <img src="img/rutau.jpg"
-                     class="img-fluid"
-                     alt="Ruta urbana en bicicleta">
+     <article class="card h-100">
 
-                <h3 class="h4 mt-3">Ruta Urbana</h3>
-                <p>Nivel: Fácil</p>
-            </article>
+     <img src="img/rutau.jpg"
+         class="card-img-top"
+         alt="Ruta urbana en bicicleta">
+
+     <div class="card-body">
+
+        <h3 class="card-title h5">Ruta Urbana</h3>
+
+        <p class="card-text">Nivel: Fácil</p>
+
+     </div>
+
+     </article>
         </div>
 
         <div class="col-12 col-md-4">
-            <article class="border rounded p-3 h-100">
-                <img src="img/rutam.jpg"
-                     class="img-fluid"
-                     alt="Ruta por montaña en bicicleta">
+       <article class="card h-100">
 
-                <h3 class="h4 mt-3">Ruta de Montaña</h3>
-                <p>Nivel: Medio</p>
-            </article>
+       <img src="img/rutam.jpg"
+         class="card-img-top"
+         alt="Ruta por montaña en bicicleta">
+
+       <div class="card-body">
+
+        <h3 class="card-title h5">Ruta de Montaña</h3>
+
+        <p class="card-text">Nivel: Medio</p>
+
+      </div>
+
+     </article>
         </div>
 
         <div class="col-12 col-md-4">
-            <article class="border rounded p-3 h-100">
-                <img src="img/rutaa.jpg"
-                     class="img-fluid"
-                     alt="Ruta de aventura en bicicleta">
+     <article class="card h-100">
 
-                <h3 class="h4 mt-3">Ruta Aventura</h3>
-                <p>Nivel: Difícil</p>
-            </article>
+     <img src="img/rutaa.jpg"
+         class="card-img-top"
+         alt="Ruta de aventura en bicicleta">
+
+     <div class="card-body">
+
+        <h3 class="card-title h5">Ruta Aventura</h3>
+
+        <p class="card-text">Nivel: Difícil</p>
+
+     </div>
+
+     </article>
         </div>
 
      </div>
 
+     </section>
+     <section class="container py-5">
+
+    <h2 class="mb-4">Promociones del mes</h2>
+
+<div id="carruselPromociones"
+     class="carousel slide carousel-dark"
+     data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+        <!-- PRIMERA PROMOCIÓN -->
+        <div class="carousel-item active">
+
+            <div class="row align-items-center g-3 bg-light rounded p-4">
+
+                <div class="col-12 col-md-6">
+                    <h3 class="h4">¡Martes 2x1!</h3>
+
+                    <p>
+                        Los martes tenemos promoción 2x1
+                        en bicicletas urbanas.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <img src="img/urbana-clasica.jpg"
+                         class="img-fluid rounded"
+                         alt="Bicicleta urbana disponible para alquiler">
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SEGUNDA PROMOCIÓN -->
+        <div class="carousel-item">
+
+            <div class="row align-items-center g-3 bg-light rounded p-4">
+
+                <div class="col-12 col-md-6">
+                    <h3 class="h4">¡20 % de descuento!</h3>
+
+                    <p>
+                        Disfruta un 20 % de descuento en bicicletas
+                        eléctricas de lunes a jueves.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <img src="img/electrica-urbana.jpg"
+                         class="img-fluid rounded"
+                         alt="Bicicleta eléctrica en promoción">
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- TERCERA PROMOCIÓN -->
+        <div class="carousel-item">
+
+            <div class="row align-items-center g-3 bg-light rounded p-4">
+
+                <div class="col-12 col-md-6">
+                    <h3 class="h4">¡Celebra tu cumpleaños!</h3>
+
+                    <p>
+                        Si cumples años, tu recorrido guiado
+                        es gratis.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <img src="img/ruta.jpg"
+                         class="img-fluid rounded"
+                         alt="Recorrido guiado en bicicleta por Medellín">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BOTÓN ANTERIOR -->
+    <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carruselPromociones"
+            data-bs-slide="prev">
+
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Promoción anterior</span>
+
+    </button>
+
+    <!-- BOTÓN SIGUIENTE -->
+    <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#carruselPromociones"
+            data-bs-slide="next">
+
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Promoción siguiente</span>
+
+    </button>
+
+</div>
      </section>
      <section>
     <h2>Nuestros servicios</h2>
@@ -208,7 +337,7 @@
 
                 <h3 class="h4">Urbana Clásica</h3>
                 <p>Cómoda y liviana para las ciclorrutas.</p>
-                <p><strong>$10.000 por hora</strong></p>
+                <p class="card-text"><strong>$10.000 por hora</strong></p>
                 <a href="paginas/reservas.html" class="btn btn-success btn-sm">Reservar</a>
             </article>
         </div>
@@ -221,7 +350,7 @@
 
                 <h3 class="h4">Urbana Plegable</h3>
                 <p>Se dobla en segundos; ideal para combinar con el metro.</p>
-                <p><strong>$12.000 por hora</strong></p>
+                <p class="card-text"><strong>$12.000 por hora</strong></p>
                 <a href="paginas/reservas.html" class="btn btn-success btn-sm">Reservar</a>
             </article>
         </div>
@@ -234,7 +363,7 @@
 
                 <h3 class="h4">Montaña Trail</h3>
                 <p>Suspensión delantera y 21 cambios para las subidas.</p>
-                <p><strong>$15.000 por hora</strong></p>
+                <p class="card-text"><strong>$15.000 por hora</strong></p>
                 <a href="paginas/reservas.html" class="btn btn-success btn-sm">Reservar</a>
             </article>
         </div>
@@ -247,7 +376,7 @@
 
                 <h3 class="h4">Gravel Aventura</h3>
                 <p>Para rutas mixtas de asfalto y destapado.</p>
-                <p><strong>$18.000 por hora</strong></p>
+                <p class="card-text"><strong>$18.000 por hora</strong></p>
                 <a href="paginas/reservas.html" class="btn btn-success btn-sm">Reservar</a>
             </article>
         </div>
@@ -260,7 +389,7 @@
 
                 <h3 class="h4">Eléctrica Urbana</h3>
                 <p>Asistencia eléctrica con 45 km de autonomía.</p>
-                <p><strong>$25.000 por hora</strong></p>
+                <p class="card-text"><strong>$25.000 por hora</strong></p>
                 <a href="paginas/reservas.html" class="btn btn-success btn-sm">Reservar</a>
             </article>
         </div>
@@ -273,7 +402,7 @@
 
                 <h3 class="h4">Infantil</h3>
                 <p>Para niños de 6 a 10 años.</p>
-                <p><strong>$8.000 por hora</strong></p>
+                <p class="card-text"><strong>$8.000 por hora</strong></p>
                 <a href="paginas/reservas.html" class="btn btn-success btn-sm">Reservar</a>
             </article>
         </div>
@@ -286,7 +415,7 @@
 
                 <h3 class="h4">Tándem</h3>
                 <p>Para dos personas; perfecta para pasear en pareja.</p>
-                <p><strong>$20.000 por hora</strong></p>
+                <p class="card-text"><strong>$20.000 por hora</strong></p>
                 <a href="paginas/reservas.html" class="btn btn-success btn-sm">Reservar</a>
             </article>
         </div>
