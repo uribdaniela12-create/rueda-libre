@@ -12,6 +12,47 @@
     --espacio-pequeno: 0.5rem;
     --espacio-mediano: 1rem;
     --espacio-grande: 2rem;
+    /* PERSONALIZACIÓN DE BOOTSTRAP */
+
+--bs-primary: #1E7A4F;
+--bs-primary-rgb: 30, 122, 79;
+
+--bs-body-font-family: var(--fuente-texto);
+
+--bs-link-color: #1E7A4F;
+--bs-link-color-rgb: 30, 122, 79;
+
+--bs-border-radius: 0.5rem;
+}
+/* BOTONES VERDE RUTA */
+
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #1E7A4F;
+    --bs-btn-border-color: #1E7A4F;
+
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #17613F;
+    --bs-btn-hover-border-color: #17613F;
+
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #104A30;
+    --bs-btn-active-border-color: #104A30;
+}
+/* BOTÓN NARANJA PEDAL */
+
+.btn-naranja-pedal {
+    --bs-btn-color: #14213D;
+    --bs-btn-bg: #F39A2B;
+    --bs-btn-border-color: #F39A2B;
+
+    --bs-btn-hover-color: #14213D;
+    --bs-btn-hover-bg: #E48A19;
+    --bs-btn-hover-border-color: #E48A19;
+
+    --bs-btn-active-color: #14213D;
+    --bs-btn-active-bg: #CC7510;
+    --bs-btn-active-border-color: #CC7510;
 }
 * {
     box-sizing: border-box;
@@ -205,4 +246,28 @@ footer {
     main {
         max-width: 90rem;
     }
+}
+/* ÍCONOS DE BENEFICIOS */
+
+.icono-beneficio {
+    display: inline-block;
+    font-size: 2rem;
+    color: var(--verde-ruta);
+    margin-bottom: 0.5rem;
+}
+/* ENLACES DE CONTACTO */
+
+.enlace-contacto {
+    color: var(--verde-ruta);
+    font-weight: 600;
+    text-underline-offset: 0.2em;
+}
+
+.enlace-contacto:hover {
+    color: var(--azul-noche);
+}
+
+.enlace-contacto:focus-visible {
+    outline: 2px solid var(--verde-ruta);
+    outline-offset: 3px;
 }

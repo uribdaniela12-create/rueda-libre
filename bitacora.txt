@@ -308,3 +308,18 @@ También incluí una alerta para recordar llevar el documento de identidad y una
 Probé el formulario con datos incorrectos y correctos. Los mensajes aparecieron cuando había errores y desaparecieron al corregirlos.
 
 Finalmente, comprobé que la alerta y la ventana de políticas funcionaran correctamente.
+
+Personalización de Bootstrap
+
+En este reto personalicé Bootstrap utilizando los colores de Rueda Libre: Verde Ruta, Naranja Pedal y Azul Noche.
+
+Modifiqué las variables de Bootstrap y creé estilos propios para los botones, los íconos y los enlaces de contacto.
+
+También agregué Bootstrap Icons en las tres páginas. Utilicé íconos para el menú de navegación, WhatsApp, la información de contacto y los beneficios de nuestra tienda.
+
+Realicé pruebas de diseño adaptable en pantallas de 360 px, 768 px y 1280 px.
+
+Revisé las combinaciones de colores para mantener un buen contraste entre los textos y los fondos.
+
+Finalmente, probé la navegación con el teclado y comprobé que podemos utilizar los enlaces, los botones y la ventana de políticas sin dificultad.
+
