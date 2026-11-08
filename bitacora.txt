@@ -323,3 +323,12 @@ Revisé las combinaciones de colores para mantener un buen contraste entre los t
 
 Finalmente, probé la navegación con el teclado y comprobé que podemos utilizar los enlaces, los botones y la ventana de políticas sin dificultad.
 
+RUEDA NOCTURNA
+
+Rueda Nocturna
+
+En este reto creé un prototipo de Rueda Nocturna utilizando Tailwind CSS. Agregué el título, la descripción, los precios y el botón de inscripción.
+
+Aprendí que Bootstrap ofrece botones con estilos definidos, como `btn btn-success`, mientras que en Tailwind utilizamos varias clases para personalizarlos.
+
+Finalmente, comprobé que el botón funcionara correctamente con el mouse y el teclado.
