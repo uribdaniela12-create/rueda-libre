@@ -350,3 +350,11 @@ Agregué imágenes, distancias, duración, precios y diferentes colores para ide
 También utilicé clases de Tailwind para los bordes, sombras y espacios, sin necesidad de escribir CSS propio.
 
 Finalmente, comprobé que las tarjetas y los botones funcionaran correctamente con el mouse y el teclado.
+
+Kit de componentes
+
+En este reto creé un kit de componentes con Tailwind CSS que incluye botones, una tarjeta, tres alertas y dos campos de formulario.
+
+También establecí reglas para mantener el mismo diseño, utilizando bordes redondeados, espacios uniformes y colores verdes, naranjas y oscuros.
+
+Finalmente, revisé que los componentes funcionaran con el teclado y mantuvieran un diseño organizado.

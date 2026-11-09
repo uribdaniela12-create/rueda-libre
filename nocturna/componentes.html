@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kit de componentes | Rueda Nocturna</title>
+
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="bg-slate-950 text-white">
+
+    <main class="mx-auto max-w-5xl px-6 py-12">
+
+        <header class="mb-12">
+
+            <h1 class="text-4xl font-bold">
+                Kit de componentes Rueda Nocturna
+            </h1>
+
+            <p class="mt-4 text-slate-300">
+                Componentes creados con Tailwind CSS
+                para nuestra campaña de rutas nocturnas.
+            </p>
+
+        </header>
+        
+        <section class="mb-12">
+
+          <h2 class="mb-6 text-2xl font-bold">
+         Botones
+         </h2>
+
+            <div class="flex flex-wrap gap-4">
+
+             <a href="../paginas/reservas.html"
+             class="rounded-lg bg-emerald-700 px-6 py-3 font-semibold text-white shadow-md hover:bg-emerald-800 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300">
+             Inscríbete
+             </a>
+
+             <a href="../paginas/tarifas.html"
+             class="rounded-lg bg-slate-200 px-6 py-3 font-semibold text-slate-950 shadow-md hover:bg-white focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300">
+             Ver tarifas
+             </a>
+
+             <a href="../index.html"
+             class="rounded-lg border-2 border-orange-300 px-6 py-3 font-semibold text-orange-200 hover:bg-orange-300 hover:text-slate-950 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300">
+             Volver al inicio
+             </a>
+
+            </div>
+
+        </section>
+        
+        <section class="mb-12">
+
+          <h2 class="mb-6 text-2xl font-bold">
+         Tarjetas
+         </h2>
+
+            <article class="max-w-xl overflow-hidden rounded-lg border border-slate-700 bg-slate-900 shadow-md hover:border-orange-400 hover:shadow-xl">
+
+             <img src="../img/rutal.jpg"
+             alt="Ruta nocturna Luces del Centro"
+             class="h-52 w-full object-cover">
+
+                <div class="p-6">
+
+                 <span class="inline-block rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-green-100">
+                 Nivel fácil
+                 </span>
+
+                 <h3 class="mt-4 text-2xl font-bold text-white">
+                 Luces del Centro
+                 </h3>
+
+                    <ul class="mt-5 space-y-3">
+
+                        <li>
+                         <span class="block text-sm text-slate-400">
+                         Distancia
+                         </span>
+                         <strong class="text-white">10 km</strong>
+                        </li>
+
+                        <li>
+                         <span class="block text-sm text-slate-400">
+                         Duración
+                         </span>
+                         <strong class="text-white">2 horas</strong>
+                        </li>
+
+                        <li>
+                         <span class="block text-sm text-slate-400">
+                         Punto de encuentro
+                         </span>
+                         <strong class="text-white">Sede de Rueda Libre</strong>
+                        </li>
+
+                    </ul>
+
+                 <p class="mt-6 text-3xl font-extrabold text-orange-300">
+                 $55.000
+                 </p>
+
+                 <a href="../paginas/reservas.html"
+                 class="mt-5 inline-block rounded-lg bg-emerald-700 px-6 py-3 font-semibold text-white shadow-md hover:bg-emerald-800 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-orange-300">
+                 Inscríbete
+                 </a>
+
+                </div>
+
+            </article>
+
+        </section>
+      
+        <section class="mb-12">
+
+         <h2 class="mb-6 text-2xl font-bold">
+          Alertas
+         </h2>
+
+            <div class="space-y-4">
+
+        
+                <div class="rounded-lg border-l-4 border-sky-400 bg-sky-950 p-4">
+                  <h3 class="font-bold text-sky-200">
+                 Información
+                 </h3>
+
+                 <p class="mt-2 text-sky-100">
+                 Las rutas nocturnas se realizan de jueves a sábado.
+                 </p>
+                </div>
+
+        
+                <div role="alert"
+                class="rounded-lg border-l-4 border-emerald-400 bg-emerald-950 p-4">
+
+                 <h3 class="font-bold text-emerald-200">
+                 ¡Inscripción exitosa!
+                 </h3>
+
+                 <p class="mt-2 text-emerald-100">
+                 Tu inscripción se ha realizado correctamente.
+                 </p>
+                </div>
+
+       
+                <div class="rounded-lg border-l-4 border-amber-400 bg-amber-950 p-4">
+                 <h3 class="font-bold text-amber-200">
+                 Advertencia
+                 </h3>
+
+                 <p class="mt-2 text-amber-100">
+                 Recuerda llegar 15 minutos antes del recorrido.
+                 </p>
+                </div>
+
+            </div>
+
+        </section>
+     
+        <section class="mb-12">
+
+         <h2 class="mb-6 text-2xl font-bold">
+          Campos de formulario
+         </h2>
+
+            <form class="max-w-xl space-y-6">
+
+                <div>
+                    <label for="correo"
+                    class="mb-2 block font-semibold text-white">
+                    Correo electrónico
+                    </label>
+
+                    <input type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="ejemplo@correo.com"
+                    aria-describedby="ayuda-correo"
+                    class="w-full rounded-lg border border-slate-500 bg-slate-900 px-4 py-3 text-white placeholder:text-slate-400 focus:border-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+                    <p id="ayuda-correo"
+                    class="mt-2 text-sm text-slate-400">
+                    Ingresa un correo electrónico válido.
+                    </p>
+                </div>
+
+                <div>
+                    <label for="celular"
+                    class="mb-2 block font-semibold text-white">
+                    Número de celular
+                    </label>
+
+                    <input type="tel"
+                    id="celular"
+                    name="celular"
+                    placeholder="3001234567"
+                    aria-describedby="ayuda-celular"
+                    class="w-full rounded-lg border border-slate-500 bg-slate-900 px-4 py-3 text-white placeholder:text-slate-400 focus:border-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+                    <p id="ayuda-celular"
+                    class="mt-2 text-sm text-slate-400">
+                    Ingresa tu número de celular de 10 dígitos.
+                    </p>
+                </div>
+
+            </form>
+
+        </section>
+
+       
+
+    </main>
+
+</body>
+</html>
