@@ -340,3 +340,13 @@ En este reto instalé Tailwind CSS con npm y aprendí a generar los estilos util
 Creé tres botones: principal, secundario y de contorno, con efectos al pasar el mouse y al navegar con el teclado.
 
 También revisé el archivo `output.css` y encontré la clase `bg-emerald-700`, pero no `bg-pink-500`, porque Tailwind solo genera los estilos de las clases que utilizamos.
+
+Cards de rutas nocturnas
+
+En este reto creé tres tarjetas para las rutas nocturnas utilizando Tailwind CSS.
+
+Agregué imágenes, distancias, duración, precios y diferentes colores para identificar la dificultad de cada ruta.
+
+También utilicé clases de Tailwind para los bordes, sombras y espacios, sin necesidad de escribir CSS propio.
+
+Finalmente, comprobé que las tarjetas y los botones funcionaran correctamente con el mouse y el teclado.
