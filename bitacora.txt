@@ -332,3 +332,11 @@ En este reto creé un prototipo de Rueda Nocturna utilizando Tailwind CSS. Agreg
 Aprendí que Bootstrap ofrece botones con estilos definidos, como `btn btn-success`, mientras que en Tailwind utilizamos varias clases para personalizarlos.
 
 Finalmente, comprobé que el botón funcionara correctamente con el mouse y el teclado.
+
+Tailwind CLI y botones
+
+En este reto instalé Tailwind CSS con npm y aprendí a generar los estilos utilizando la CLI.
+
+Creé tres botones: principal, secundario y de contorno, con efectos al pasar el mouse y al navegar con el teclado.
+
+También revisé el archivo `output.css` y encontré la clase `bg-emerald-700`, pero no `bg-pink-500`, porque Tailwind solo genera los estilos de las clases que utilizamos.
