@@ -358,3 +358,11 @@ En este reto creé un kit de componentes con Tailwind CSS que incluye botones, u
 También establecí reglas para mantener el mismo diseño, utilizando bordes redondeados, espacios uniformes y colores verdes, naranjas y oscuros.
 
 Finalmente, revisé que los componentes funcionaran con el teclado y mantuvieran un diseño organizado.
+
+Landing de Rueda Nocturna
+
+En este reto construí la landing de Rueda Nocturna con un encabezado, tres tarjetas de rutas, cuatro pasos para alquilar, una sección de inscripción y un pie de página.
+
+Utilicé Flexbox para organizar el menú y el pie de página, y Grid para distribuir las tarjetas y los cuatro pasos en columnas iguales.
+
+También reutilicé los componentes del kit y comprobé que los enlaces y las imágenes funcionaran correctamente.
