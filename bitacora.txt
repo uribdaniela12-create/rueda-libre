@@ -377,10 +377,20 @@ Utilicé las clases `sm:`, `md:` y `lg:` para organizar las tarjetas, los pasos,
 
 Resultados de las pruebas:
 
-| Ancho   | Tarjetas   | Pasos      |Resultado |
-| 360 px  | 1 columna  | 1 columna  | Correcto |
-| 768 px  | 2 columnas | 2 columnas | Correcto |
-| 1024 px | 3 columnas | 4 columnas | Correcto |
-| 1280 px | 3 columnas | 4 columnas | Correcto |
+ Ancho  | Tarjetas  | Pasos     |Resultado |
+ 360 px | 1 columna | 1 columna | Correcto |
+ 768 px | 2 columna | 2 columnas| Correcto |
+ 1024 px| 3 columnas| 4 columnas| Correcto |
+ 1280 px| 3 columnas| 4 columnas| Correcto |
 
 Finalmente, comprobé que los elementos se visualizaran correctamente y que no hubiera desplazamiento horizontal.
+
+Identidad visual y modo oscuro
+
+En este reto personalicé la página Rueda Nocturna utilizando los colores de nuestra marca y las fuentes Montserrat y Open Sans.
+
+También aprendí a utilizar @theme para definir los colores y las fuentes en Tailwind CSS, y así mantener el mismo diseño en toda la página.
+
+Después implementé el modo claro y oscuro utilizando las clases dark:. Al principio tuve dificultades porque los cambios no se reflejaban correctamente, pero revisé el código y aprendí a probar los dos modos desde las herramientas de desarrollador de Chrome.
+
+Finalmente, adapté los botones, las tarjetas, las alertas y los formularios para que se vieran bien en ambos modos. También revisé los contrastes de los textos para mejorar la accesibilidad de la página.
