@@ -22,3 +22,83 @@
     --font-titulos: "Montserrat", sans-serif;
     --font-texto: "Open Sans", sans-serif;
 }
+/* COMPONENTES REUTILIZABLES */
+
+@layer components {
+
+    /* Botón principal */
+    .btn-principal {
+        @apply inline-block rounded-lg bg-verde-ruta px-6 py-3 font-semibold text-white shadow-md;
+    }
+
+    /* Efecto al pasar el mouse */
+    .btn-principal:hover {
+        @apply bg-azul-noche;
+    }
+
+    /* Accesibilidad con teclado */
+    .btn-principal:focus-visible {
+        @apply outline-none ring-4 ring-amarillo-farol;
+    }
+
+    /* Efecto hover en modo oscuro */
+    @media (prefers-color-scheme: dark) {
+        .btn-principal:hover {
+            @apply bg-amarillo-farol text-azul-noche;
+        }
+    }
+    /* BOTÓN SECUNDARIO */
+
+    .btn-secundario {
+     @apply inline-block rounded-lg bg-azul-noche px-6 py-3 font-semibold text-white shadow-md;
+    }
+
+    /* Efecto al pasar el mouse */
+   .btn-secundario:hover {
+      @apply bg-verde-ruta;
+    }
+ 
+    /* Accesibilidad con teclado */
+    .btn-secundario:focus-visible {
+     @apply outline-none ring-4 ring-amarillo-farol;
+    }
+
+    /* Modo oscuro */
+    @media (prefers-color-scheme: dark) {
+        .btn-secundario {
+         @apply bg-crema text-azul-noche;
+        }
+
+        .btn-secundario:hover {
+         @apply bg-amarillo-farol;
+        }
+    }
+
+    /* BOTÓN DE CONTORNO */
+
+    .btn-contorno {
+      @apply inline-block rounded-lg border-2 border-naranja-pedal px-6 py-3 font-semibold text-azul-noche;
+    }
+
+    /* Efecto al pasar el mouse */
+    .btn-contorno:hover {
+      @apply bg-amarillo-farol;
+    }
+
+    /* Accesibilidad con teclado */
+    .btn-contorno:focus-visible {
+      @apply outline-none ring-4 ring-amarillo-farol;
+    }
+
+    /* Modo oscuro */
+    @media (prefers-color-scheme: dark) {
+        .btn-contorno {
+          @apply text-crema;
+        }
+
+        .btn-contorno:hover {
+         @apply text-azul-noche;
+        }
+    }
+
+}

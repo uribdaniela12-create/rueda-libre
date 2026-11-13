@@ -394,3 +394,11 @@ También aprendí a utilizar @theme para definir los colores y las fuentes en Ta
 Después implementé el modo claro y oscuro utilizando las clases dark:. Al principio tuve dificultades porque los cambios no se reflejaban correctamente, pero revisé el código y aprendí a probar los dos modos desde las herramientas de desarrollador de Chrome.
 
 Finalmente, adapté los botones, las tarjetas, las alertas y los formularios para que se vieran bien en ambos modos. También revisé los contrastes de los textos para mejorar la accesibilidad de la página.
+
+Reutilización y optimización de estilos
+
+En este reto aprendí a utilizar @apply para crear tres botones reutilizables y evitar repetir tantas clases en el HTML. También organicé el código para que fuera más fácil de entender.
+
+Después optimicé el CSS con --minify y logré reducir su tamaño de 26.508 a 21.439 bytes, aproximadamente un 19,12 %.
+
+Finalmente, comparé Tailwind con Bootstrap y concluí que Tailwind es más conveniente para Rueda Nocturna porque permite personalizar los estilos y generar un archivo CSS más ligero.
