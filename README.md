@@ -75,4 +75,4 @@ Vista en celular
 (capturas/celular.png)
 Modo oscuro
 
-(capturas/modo-oscuro.png)
+(capturas/dark.png)
