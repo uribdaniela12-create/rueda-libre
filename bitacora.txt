@@ -412,3 +412,15 @@ Creé un formulario de inscripción con HTML y Tailwind CSS, incluyendo los dato
 Agregué validaciones y comprobé que funcionara correctamente con el teclado, en diferentes pantallas y en modo oscuro.
 
 Resultado:Formulario terminado y validado. Queda pendiente conectarlo para recibir inscripciones reales.
+
+Planes Rueda Nocturna
+
+Tiempo:No cronometrado.
+
+Creé tres tarjetas para los planes Individual, Pareja y Grupo utilizando Tailwind CSS, Grid y Flexbox.
+
+Destaqué el plan Pareja con la etiqueta «Más elegido» y comprobé que las tarjetas tuvieran el mismo tamaño y sus botones estuvieran alineados.
+
+También revisé el diseño en celulares y el modo oscuro.
+
+Resultado:Sección de planes terminada.
