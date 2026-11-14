@@ -402,3 +402,13 @@ En este reto aprendí a utilizar @apply para crear tres botones reutilizables y 
 Después optimicé el CSS con --minify y logré reducir su tamaño de 26.508 a 21.439 bytes, aproximadamente un 19,12 %.
 
 Finalmente, comparé Tailwind con Bootstrap y concluí que Tailwind es más conveniente para Rueda Nocturna porque permite personalizar los estilos y generar un archivo CSS más ligero.
+
+Inscripción a Rueda Nocturna
+
+Tiempo aproximado:1 hora y 33 minutos.
+
+Creé un formulario de inscripción con HTML y Tailwind CSS, incluyendo los datos de los participantes y sus preferencias de ruta.
+
+Agregué validaciones y comprobé que funcionara correctamente con el teclado, en diferentes pantallas y en modo oscuro.
+
+Resultado:Formulario terminado y validado. Queda pendiente conectarlo para recibir inscripciones reales.
